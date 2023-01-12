@@ -1,0 +1,19 @@
+
+
+p {
+	text-shadow: rgba(238, 238, 238, 0.25) 0px 54px 55px, rgba(238, 238, 238, 0.12) 0px -12px 30px, rgba(238, 238, 238, 0.12) 0px 4px 6px, rgba(238, 238, 238, 0.17) 0px 12px 13px, rgba(238, 238, 238, 0.09) 0px -3px 5px;;
+	color: rgb(238,238,228);
+	font-family: "Lato";
+	font-weight: 300;
+	letter-spacing: 1.5px;
+	line-height: 20px;
+	text-align: justify;
+}
+
+.lm {
+	margin: 50px;
+}
+
+.bold {
+	font-weight: 900;
+}

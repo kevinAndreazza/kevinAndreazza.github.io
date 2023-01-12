@@ -1,0 +1,212 @@
+.introduction-conteneur{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+	margin: 0; padding: 0;
+	width: 100%; height: 100%;
+	overflow-y: hidden;
+	overflow: hidden;
+	margin-right: 30px; padding: 10px;
+}
+
+/* Première section dite d'accroche*/
+
+/*espace de la photo de la personne*/
+.i-photo-identite{
+	margin-top: 10px; margin-bottom: 10px;
+	width: 700px; height: 790px;
+	border: 2px rgb(13, 12, 12) double;
+	border-radius: 4800px;
+	box-shadow: rgba(238,238,228, 0.5) 0px 54px 55px, rgba(238,238,228,0.24) 0px -12px 30px, rgba(238,238,228,0.24) 0px 4px 6px, rgba(238,238,228,0.34) 0px 12px 13px, rgba(238,238,228,0.18) 0px -3px 5px; ;
+}
+
+/* paramètre de l'image de la photo de la personne*/
+.i-pi-image{
+	width: 700px; height: 790px;
+	border-radius:4800px;
+	opacity: 0.9;
+}
+
+/*partie texte */
+.i-profil-accroche{
+	color: rgb(238,238,228);
+	font-size: 60px;
+	text-shadow: rgba(238,238,228, 1) 0px 54px 55px, rgba(238,238,228,1) 0px -12px 30px, rgba(238,238,228,1) 0px 4px 6px, rgba(238,238,228,1) 0px 12px 13px, rgba(238,238,228,1) 0px -3px 5px; ;
+
+}
+
+.i-pa-accroche{
+	display: flex;
+	flex-direction: column;
+	padding-left: 10px;
+	text-align: left;
+	font-weight: lighter;
+	font-style: oblique;
+}
+
+.bouton{
+	margin-top: -25px;
+	float: right;
+	cursor: pointer;
+	opacity: 0.2;
+	text-decoration: underline;
+	text-underline-offset: 25px;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+.bouton:hover{
+	margin-top: 5px; margin-bottom: 5px; margin-left: 10px; margin-right: 10px;
+	font-size: 35px;
+	opacity: 1;
+	cursor: pointer;
+}
+
+/* partie proffessionnelles */
+
+.xp-accroche{
+	color: rgb(238,238,228);
+	font-size: 60px;
+	text-shadow: rgba(238,238,228, 1) 0px 54px 55px, rgba(238,238,228,1) 0px -12px 30px, rgba(238,238,228,1) 0px 4px 6px, rgba(238,238,228,1) 0px 12px 13px, rgba(238,238,228,1) 0px -3px 5px; ;
+	text-align: justify-all;
+	font-weight: lighter;
+	font-style: oblique;
+	text-align: center;
+	margin: auto;
+}
+
+.xp-accroche-photos-struct{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	margin: auto;
+	flex-direction: row;
+	opacity: 0.2;
+}
+.xp-accroche-photos-struct:hover{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	margin: auto;
+	flex-direction: row;
+	opacity: 0.8;
+	padding-right: 10px;
+}
+.xp-accroche-photos0{
+	display-image:none;
+	transition: all 0.3s ease-in-out;
+	width: 300px; height: 300px;
+	box-shadow: rgba(238,238,228, 0.5) 0px 54px 55px, rgba(238,238,228,0.24) 0px -12px 30px, rgba(238,238,228,0.24) 0px 4px 6px, rgba(238,238,228,0.34) 0px 12px 13px, rgba(238,238,228,0.18) 0px -3px 5px; ;
+	border-radius: 400px;
+	background-image: url(reseau.png);
+}
+
+	.xp-accroche-photos01{
+	transition: all 0.3s ease-in-out;
+	width: 300px; height: 300px;
+	box-shadow: rgba(238,238,228, 0.5) 0px 54px 55px, rgba(238,238,228,0.24) 0px -12px 30px, rgba(238,238,228,0.24) 0px 4px 6px, rgba(238,238,228,0.34) 0px 12px 13px, rgba(238,238,228,0.18) 0px -3px 5px; ;
+	border-radius: 400px;}
+
+
+
+.xp-accroche-photos1{
+	transition: all 0.3s ease-in-out;
+	width: 300px; height: 300px;
+	box-shadow: rgba(238,238,228, 0.5) 0px 54px 55px, rgba(238,238,228,0.24) 0px -12px 30px, rgba(238,238,228,0.24) 0px 4px 6px, rgba(238,238,228,0.34) 0px 12px 13px, rgba(238,238,228,0.18) 0px -3px 5px; ;
+	border-radius: 400px;
+}
+.xp-accroche-photos1-1{
+	transition: all 0.3s ease-in-out;
+	width: 300px; height: 300px;
+	box-shadow: rgba(238,238,228, 0.5) 0px 54px 55px, rgba(238,238,228,0.24) 0px -12px 30px, rgba(238,238,228,0.24) 0px 4px 6px, rgba(238,238,228,0.34) 0px 12px 13px, rgba(238,238,228,0.18) 0px -3px 5px; ;
+	border-radius: 400px;
+}
+.xp-accroche-photos1-2{
+	transition: all 0.3s ease-in-out;
+	width: 300px; height: 300px;
+	box-shadow: rgba(238,238,228, 0.5) 0px 54px 55px, rgba(238,238,228,0.24) 0px -12px 30px, rgba(238,238,228,0.24) 0px 4px 6px, rgba(238,238,228,0.34) 0px 12px 13px, rgba(238,238,228,0.18) 0px -3px 5px; ;
+	border-radius: 400px;
+}
+
+.xp-accroche-photos2{
+	transition: all 0.3s ease-in-out;
+	width: 300px; height: 300px;
+	box-shadow: rgba(238,238,228, 0.5) 0px 54px 55px, rgba(238,238,228,0.24) 0px -12px 30px, rgba(238,238,228,0.24) 0px 4px 6px, rgba(238,238,228,0.34) 0px 12px 13px, rgba(238,238,228,0.18) 0px -3px 5px; ;
+	border-radius: 400px;
+}
+.xp-accroche-photos2-2{
+	transition: all 0.3s ease-in-out;
+	width: 300px; height: 300px;
+	box-shadow: rgba(238,238,228, 0.5) 0px 54px 55px, rgba(238,238,228,0.24) 0px -12px 30px, rgba(238,238,228,0.24) 0px 4px 6px, rgba(238,238,228,0.34) 0px 12px 13px, rgba(238,238,228,0.18) 0px -3px 5px; ;
+	border-radius: 400px;
+}
+
+.xp-accroche-photos3{
+	transition: all 0.3s ease-in-out;
+	width: 300px; height: 300px;
+	box-shadow: rgba(238,238,228, 0.5) 0px 54px 55px, rgba(238,238,228,0.24) 0px -12px 30px, rgba(238,238,228,0.24) 0px 4px 6px, rgba(238,238,228,0.34) 0px 12px 13px, rgba(238,238,228,0.18) 0px -3px 5px; ;
+	border-radius: 400px;
+}
+
+.xp-bouton{
+	cursor: pointer;
+	opacity: 0.2;
+	text-decoration: underline;
+	text-underline-offset: 25px;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 30px;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+}
+
+.xp-bouton:hover{
+	font-size: 70px;
+	opacity: 1;
+	cursor: pointer;
+}
+/* responsive de l'accroche*/
+@media only screen and (max-width: 1690px){
+	.i-pa-accroche{
+		text-align: center;
+	}
+	.bouton{
+		float: none;
+		text-align: center;
+	}
+	.xp-accroche{
+	text-align: center;
+	padding-bottom: 50px;
+	}
+}
+
+/*responsive de la photo*/
+@media only screen and (max-width: 700px){
+	.i-photo-identite{
+	margin-top: 10px; margin-bottom: 10px;
+	width: 350px; height: 395px;
+	border: 2px rgb(13, 12, 12) double;
+	border-radius: 4800px;
+	box-shadow: rgba(238,238,228, 0.5) 0px 54px 55px, rgba(238,238,228,0.24) 0px -12px 30px, rgba(238,238,228,0.24) 0px 4px 6px, rgba(238,238,228,0.34) 0px 12px 13px, rgba(238,238,228,0.18) 0px -3px 5px; ;
+	}
+	.i-pi-image{
+	width: 350px; height: 395px;
+	border-radius:4800px;
+	opacity: 0.9;
+	}
+	.xp-accroche{
+	text-align: center;
+	margin-right: 10px;
+	}
+	.i-profil-accroche{
+		text-align: center;
+		margin-right: 10px;
+	}
+	.i-pa-accroche{
+		text-align: center;
+		margin-right: 10px;
+	}
+}

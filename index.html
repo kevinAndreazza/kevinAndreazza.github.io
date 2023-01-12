@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" title="Design du site" href="content/header/header.css" />
+	<link rel="stylesheet" type="text/css" media="screen" title="Design du site" href="content/normalizer/normaliseur.css" />
+	<link rel="stylesheet" type="text/css" media="screen" title="Design du site" href="introduction.css" />
+	<link rel="stylesheet" type="text/css" media="screen" title="Design du site" href="content/contain/contain.css" />
+
+
+
+
+	<script src="https://kit.fontawesome.com/5174ab230a.js" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<title>Bienvenue</title>
+</head>
+
+
+<body>
+
+<!-- EN TÊTE -->
+
+<!-- inspiré d'un tutoriel vidéo de la châine youtube de "Les canards barbus" https://www.youtube.com/@lescanardsbarbus8352 -->
+
+	<header role="header">
+		<nav class="menu" role="navigation">
+			<div class="inner">
+				<div class="m-left">
+					<h1 class="prenom_nom">Kevin Andreazza</h1>
+				</div>
+				<div class="m-right">
+						<a href="index.html" class="m-link"><i class="fa-solid fa-map-pin"></i> Vous êtes ici ! </a>
+						<a href="content/curriculum/cv.html" class="m-link"><i class="fa-solid fa-file-shield"></i> Curriculum </a>
+						<a href="content/motivations/lm.html" class="m-link"><i class="fa-solid fa-bolt"></i> Motivations </a>	
+				</div>
+				<div class="m-nav-toggle">
+					<span class="m-toggle-icons"></span>
+				</div>
+			</div>
+		</nav>	
+	</header>
+
+	<div class="conteneur-profil" >
+		<img src="content/images/transparent-photo.png" class="p-element-1" onmouseover="this.src='content/images/transparent-photo1.png'" onmouseout="this.src='content/images/transparent-photo.png'" >
+		<p id= 'intro' class="p-element-2">
+			Autodidacte dans de nombreux domaines.<br/>
+			je suis fier et fort d'un parcours atypique,<br/>
+			sur le plan professionnel comme personnel.<br/>
+		</p>
+	</div>
+
+	<div class="conteneur-experiences">
+		<p class="e-element-1">
+			J'ai l'âme d'un entrepreneur et je suis un homme d'action.<br/>
+			Aussi, mes différentes expériences s'entrecroisent<br/>
+			dans la diversité, sur un même chemin !<br/>
+		</p>
+		<div class="e-elements-photos" >
+			<img onclick="location.href='content/curriculum/cv.html';"id="manager" class="e-elements-photos-display" src="content/images/manager.png" onmouseover="this.src='content/images/manager1.png'" onmouseout="this.src='content/images/manager.png'">
+			<img onclick="location.href='content/curriculum/cv.html';"id="cuisinier" class="e-elements-photos-display" src="content/images/cusinier.png" onmouseover="this.src='content/images/cuisinier1.png'" onmouseout="this.src='content/images/cusinier.png'"  >
+			<img onclick="location.href='content/curriculum/cv.html';"id="invest" class="e-elements-photos-display" src="content/images/invest.png" onmouseover="this.src='content/images/invest1.png'" onmouseout="this.src='content/images/invest.png'">
+			<img onclick="location.href='content/curriculum/cv.html';"id="dev" class="e-elements-photos-display" src="content/images/dev.png" onmouseover="this.src='content/images/dev1.png'" onmouseout="this.src='content/images/dev.png'"> 
+			<img onclick="location.href='content/curriculum/cv.html';"id="event" class="e-elements-photos-display" src="content/images/event.png" onmouseover="this.src='content/images/event1.png'" onmouseout="this.src='content/images/event.png'">
+		</div>
+		<span onclick="location.href='content/motivations/lm.html'; "class="p-bouton"> En savoir + </span>
+	</div>
+
+	
+
+<script src="content/js/app.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" title="Design du site" href="header.css" />
+	<link rel="stylesheet" type="text/css" media="screen" title="Design du site" href="normaliseur.css" />
+	<link rel="stylesheet" type="text/css" media="screen" title="Design du site" href="style-cv.css" />
+	<link rel="stylesheet" type="text/css" media="screen" title="Design du site" href="contact-style.css" />
+
+
+
+	<script src="https://kit.fontawesome.com/5174ab230a.js" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<title>Me contacter</title>
+</head>
+<body>
+<!-- inspiré d'un tutoriel vidéo de la châine youtube de "Les canards barbus" https://www.youtube.com/@lescanardsbarbus8352 -->
+
+	<header role="header">
+		<nav class="menu" role="navigation">
+			<div class="inner">
+				<div class="m-left">
+					<h1 class="prenom_nom">Contacts</h1>
+				</div>
+				<div class="m-right">
+						<a href="page_acceuil.html" class="m-link"><i class="fa-solid fa-house"></i> Acceuil</a>
+						<a href="cv.html" class="m-link"><i class="fa-solid fa-file"></i> Parcours Résumé</a>
+						<!--<a href="#" class="m-link"><i class="fa-solid fa-bars-progress"></i> Projets</a>-->
+						<a href="contact.html" class="m-link"><i class="fa-solid fa-envelope"></i> Contact</a>	
+				</div>
+				<div class="m-nav-toggle">
+					<span class="m-toggle-icons"></span>
+				</div>
+			</div>
+		</nav>	
+	</header>
+
+	<div id="Contact">
+
+		<form action="" method="post">
+			<fieldset>
+				<legend>Votre identité</legend>
+			<label for="nom">Nom : </label>
+			<input type="text" name="Nom" id="nom"><br/>
+			<label for="prenoms">Prénom : </label>
+			<input type="text" name="Prenoms" id="Prenoms">
+			</fieldset>
+			
+			<fieldset>
+				<legend>Vos coordonnées</legend>
+			<label for="mail">Adresse Mail : </label>
+			<input type="e-mail" name="Mail" id="mail"><br/>
+			<label for="tel">Numéro de téléphone : </label>
+			<input type="tel" name="tel" id="tel">
+			</fieldset>
+			
+			<fieldset>
+				<legend>En savoir plus sur vous</legend>
+					<fieldset >
+						<legend>Statut</legend>
+							<input type="radio" name="statut-raison-sociale" value="entreprise" id="entreprise" required> <label for="entreprise">Je suis une Entreprise</label><br>
+							<input type="radio" name="statut-raison-sociale" value="particulier" id="particulier" required> <label for="particulier">Je suis un Particulier</label><br>
+					</fieldset>
+					<fieldset>
+						<legend>Motivations :</legend>
+							<input type="radio" name="motivations" value="curiosite" id="curiosite"> <label for="curiosite" required >Simple curiosité</label><br>
+							<input type="radio" name="motivations" value="interet-pro" id="interet-pro"> <label for="interet-pro">Interet professionnel</label><br>
+					</fieldset>
+			</fieldset>
+
+			<fieldset>
+				<legend>Préférences de contact : </legend>
+					<input type="radio" name="pref-contact" value="sms" id="sms" required> <label for="sms">Je préfère l'envoi de SMS</label><br>
+					<input type="radio" name="pref-contact" value="vocal" id="vocal" required> <label for="vocal">Je préfère que l'on m'appelle</label><br>
+					<input type="radio" name="pref-contact" value="e-mail" id="e-mail" required> <label for="e-mail">Envoyez moi plutôt un e-mail</label><br>
+			</fieldset>
+
+			<input type="button" value="Envoyer">
+		</form>
+
+	</div>
+
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
